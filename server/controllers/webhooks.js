@@ -1,5 +1,11 @@
 import { Webhook } from "svix";
 import User from "../models/User.js"
+import express from "express";
+
+
+const app = express();
+app.use(express.json()); // Ensure JSON parsing
+
 
 // API Controller Function to Manage Clerk User with database
 
