@@ -7,14 +7,13 @@ const Footer = () => {
       {/* left col */}
       <div className="flex items-center gap-4">
         <img
-          className="hidden md:block w-35 lg:w-30"
-          src={assets.KnowledgeHiveLogo}
-       
+          className="hidden md:block w-30 lg:w-30"
+          src={assets.logo}
           alt="logo"
         />
         <div className="hidden md:block h-7 w-px bg-gray-500/60"></div>
         <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-          Copyright 2025 © KnowledgeHive. All Rights Reserved.
+          Copyright 2025 © Srashti Rai. All Rights Reserved.
         </p>
       </div>
       {/* Right col */}

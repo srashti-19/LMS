@@ -11,9 +11,9 @@ const Navbar = () => {
     border-gray-500 py-3">
       <Link to="/">
         <img
-          src={assets.KnowledgeHiveLogo}
+          src={assets.logo}
           alt="logo"
-        className="w-35 lg:w-40 cursor-pointer"
+        className="w-30  cursor-pointer"
         />
       </Link>
       <div className="flex items-center gap-5 text-gray-500 relative">

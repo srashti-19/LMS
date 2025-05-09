@@ -21,9 +21,9 @@ const Navbar = () => {
     >
     <img
         onClick={() => navigate("/")}
-        src={assets.KnowledgeHiveLogo}
+        src={assets.logo}
         alt="Logo"
-        className="w-45 lg:w-50 cursor-pointer"
+        className="w-35 cursor-pointer"
       />
 
       {/* For Laptop Screens */}
