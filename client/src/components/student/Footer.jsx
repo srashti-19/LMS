@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex flex-col md:items-start items-center w-full">
           <img className="w-35 h-auto" src={assets.logo_dark} alt="logo" />
           <p className="mt-6 text-center md:text-left text-sm text-white/80">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text.
+            Empower your learning journey with our intuitive LMS — create,
+            manage, and track courses effortlessly, anytime, anywhere.
           </p>
         </div>
         <div className="flex flex-col md:items-start items-center w-full">
@@ -42,7 +42,9 @@ const Footer = () => {
               type="email"
               placeholder="Enter your email"
             />
-            <button className="bg-blue-600 w-24 h-9 text-white rounded">Subscribe</button>
+            <button className="bg-blue-600 w-24 h-9 text-white rounded">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
